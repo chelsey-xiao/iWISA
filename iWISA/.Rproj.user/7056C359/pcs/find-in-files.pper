@@ -1,0 +1,10 @@
+{
+    "dialog-state" : {
+        "caseSensitive" : false,
+        "filePatterns" : [
+        ],
+        "path" : "~/R/iWISA - gai rd file",
+        "query" : "datasq",
+        "regex" : false
+    }
+}

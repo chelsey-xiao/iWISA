@@ -1,0 +1,24 @@
+Package: iWISA
+Type: Package
+Title: Wavelet-Base Index of Storm Activity
+Version: 1.0-2
+Date: 2015-11-24
+Depends:
+    R (>= 2.10.0),
+    stats
+Imports:
+    waveslim,
+    fda,
+    ggplot2,
+    splines
+Description: Package iWISA is a powerful system to estimate wavelet-based index
+    of magnetic storm activity (WISA), storm activity preindex and Sq variation.
+    iWISA also a elegant index visualization tool to plot all the estimations
+    mentioned above. It is also flexible enough to handle user requirement.
+Author: Inga Maslova [aut, cre],
+    Wen Xiao [aut, cre]
+Maintainer: Wen Xiao <wx5356a@student.american.edu>
+LazyData: true
+License: GPL-2 | GPL-3
+Repository: CRAN
+RoxygenNote: 5.0.1

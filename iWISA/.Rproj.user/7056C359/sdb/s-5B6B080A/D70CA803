@@ -1,0 +1,16 @@
+{
+    "contents" : "setwd(\"D:/STATS/statistics/Functional Data analysis/Rpackage/attempt\")\nrm(list=ls())\nsource(\"magnetic.latitude.R\")\nsource(\"missing.linear.R\")\nsource(\"mra.wt.R\")\nsource(\"pca.SQ.new.R\")\nsource(\"pca.sq.R\")\nsource(\"plot.SI.R\")\nsource(\"plot.sq.R\")\nsource(\"preindex.plot.R\")\nsource(\"quantile.manual.thresh.scalewise.R\")\nsource(\"rem.daily.R\")\nsource(\"SAIndex.R\")\nsource(\"SQ.new.R\")\nsource(\"WISA.R\")\nls()\npackage.skeleton(list=ls(),name=\"iWISA\",)\n\nsearch()\n\nsystem(\"R CMD build iWISA\")\nsystem(\"R CMD Rd2pdf iWISA\")\nsystem(\"R CMD check iWISA\")\n\nfor (f in list.files(\"iWISA/R\", full.names=TRUE)) parse(f) \n#display all the non-ASCII characters\ntools::showNonASCII( readLines(\"D:/STATS/statistics/Functional Data analysis/Rpackage/iWISA_package/R code/iWISA/man/SIplot.Rd\"))\n\ninstall.packages(\"devtools\")\nlibrary(devtools)\ndocument()\nmanual(iWISA)\n\n",
+    "created" : 1454032885293.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1606798033",
+    "id" : "D70CA803",
+    "lastKnownWriteTime" : 1455567979,
+    "path" : "D:/STATS/statistics/Functional Data analysis/Rpackage/iWISA_package/R code/creat_r_package.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
